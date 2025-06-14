@@ -482,9 +482,11 @@ body {
   color: #383838;
   font-weight: 400;
   font-size: 14px;
-  font-family: "Menlo", "Meslo LG", monospace;
-  line-height: 1.725;
+  font-family: "Menlo", "Meslo LG", monospace, "Noto Sans SC", "Source Han Sans CN", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 1.8;
   text-rendering: geometricPrecision;
+  letter-spacing: 0.01em;
+  word-spacing: 0.01em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -500,6 +502,8 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 .content code {
   hyphens: manual;
